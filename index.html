@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Negocios Los Santos</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Mapa de Negocios en Los Santos</h1>
+    <div id="map-container">
+        <img id="map" src="assets/mapa-los-santos.jpg" alt="Mapa de Los Santos" />
+        <div class="marker" style="top: 40%; left: 30%;" data-name="Tienda de Ropa" data-price="$1500" data-img="assets/negocio1.jpg"></div>
+        <div class="marker" style="top: 55%; left: 60%;" data-name="Gasolinera" data-price="$800" data-img="assets/negocio2.jpg"></div>
+        <div class="marker" style="top: 75%; left: 45%;" data-name="Bar de playa" data-price="$1200" data-img="assets/negocio3.jpg"></div>
+    </div>
+    <div id="info-box" class="hidden">
+        <button id="close-btn">X</button>
+        <h2 id="negocio-nombre"></h2>
+        <img id="negocio-img" src="" alt="Imagen negocio" />
+        <p>Precio: <span id="negocio-precio"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
